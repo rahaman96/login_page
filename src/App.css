@@ -64,10 +64,10 @@ hr.dotted {
 .gendercontainer {
   display: flex;
 }
-
+/* 
 .radio {
   margin: 10px;
-}
+} */
 
 .radioinput {
   margin: 0 3px;
@@ -89,7 +89,10 @@ hr.dotted {
 
 .submit {
   width: 200px !important;
-  margin: 10px auto !important;
+}
+.Details{
+  width: 200px !important;
+  margin-right: 10px auto !important;
 }
 
 .hrline {

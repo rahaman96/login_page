@@ -15,7 +15,7 @@ const Thankyou = ({ handlesubmit }) => {
     <div>
       <h3>Thank you for your details</h3>
       <div className="thankYou">
-        <Button className='submit' onClick={handlesubmit}>Submit</Button>
+        <Button className='submit '  onClick={handlesubmit}>Submit</Button>
         <Button className='Details' variant="info" onClick={handleShow}>Show Your Details</Button>
       </div>
       <Modal show={show} onHide={handleClose} className='modalcontent'>
